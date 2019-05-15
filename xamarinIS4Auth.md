@@ -1,18 +1,42 @@
+```csharp
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+namespace XamarinFormsClient
+{
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
 
-```markdown
-Syntax highlighted code block
+            MainPage = new MainPage();
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        protected override void OnStart()
+        {
+            // Handle when your app starts
+        }
 
-- Bulleted
-- List
+        protected override void OnSleep()
+        {
+            // Handle when your app sleeps
+        }
 
-1. Numbered
-2. List
+        protected override void OnResume()
+        {
+            // Handle when your app resumes
+        }
+    }
+}
+```
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```xaml
+<ContentPage.Content>
+    <StackLayout>
+        <Button Text="Login" x:Name="Login" />
+        <Button Text="Call Api" x:Name="CallApi" />
+        <Label x:Name="OutputText"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand" />
+    </StackLayout>
+</ContentPage.Content>
 ```
