@@ -10,3 +10,6 @@ Optionally you can create shared module for this purpose.
 5. Pick your component from [material.angular.io](http://material.angular.io) and add it to template.  
 6. Include theme in styles.css add  
 ```@import "~@angular/material/prebuild-themes/pick-theme.css";```
+7. Add gesture support
+```npm install --save hammerjs```
+and add ```import 'hammerjs'``` in main.ts
