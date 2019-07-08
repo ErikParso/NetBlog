@@ -16,7 +16,9 @@ Optionally you can create shared module for this purpose.
 8. Add Material icons 
    - in index.html add  ```<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">```
    - use icon within component
-    ```<button mat-button>
-    <mat-icon>face</mat-icon>
-    Click me!
-    </button>```
+    ```html
+    <button mat-button>
+       <mat-icon>face</mat-icon>
+       Click me!
+    </button>
+    ```
