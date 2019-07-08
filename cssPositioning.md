@@ -1,3 +1,5 @@
+## Basic CSS positioning, floating and centering methods
+
 **Fixed positioning**
 
 Fixes the position of an element relative to the browser window. Element stays fixed in place even when scrolling. Usually applies on menus.. 
