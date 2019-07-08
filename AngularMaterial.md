@@ -15,6 +15,7 @@ Optionally you can create shared module for this purpose.
    - add `import 'hammerjs'` in main.ts  
 8. Add Material icons 
    - in index.html add  `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`  
+   - import MatIconModule
    - use icon within component  
     ```html
     <button mat-button>
